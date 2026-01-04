@@ -1,3 +1,5 @@
+<img width="900" height="120" alt="pthheader" src="https://github.com/user-attachments/assets/23117100-3e7c-4a2e-85be-57bef27c8d8e" />
+
 # Sollana Framework
 
 Behavior-driven cognitive experimentation toolkit with BCE (Behavioral Consciousness Engine) regularization, telemetry, and plug-and-play integrators for language-model training and evaluation.
@@ -113,5 +115,6 @@ Aggregated telemetry (averages + `score`) is surfaced in eval outputs.
 
 ## License
 See `licence.md`.
+
 
 
