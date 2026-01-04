@@ -1,0 +1,254 @@
+{
+  "auto_val": {
+    "bce_on": {
+      "mean_ce": 0.05827188678085804,
+      "p50_ce": 0.05827188678085804,
+      "p90_ce": 0.08065440095961093,
+      "min_ce": 0.030293744057416916,
+      "max_ce": 0.08625002950429916,
+      "ppl": 1.0600031573809976,
+      "mean_total": -0.1452561654150486,
+      "bucket_mean": {
+        "<=64": 0.05827188678085804,
+        ">64": null
+      },
+      "best3": [
+        {
+          "idx": 0,
+          "text": "Translate to Turkish: God will help us.",
+          "len": 11,
+          "ce_loss": 0.030293744057416916,
+          "bce_loss": -0.4617466926574707,
+          "total_loss": -0.1728747934103012,
+          "bce_eff_w": 0.44
+        },
+        {
+          "idx": 1,
+          "text": "Translate to Turkish: Yes, a war with Germany.",
+          "len": 13,
+          "ce_loss": 0.08625002950429916,
+          "bce_loss": -0.4633808434009552,
+          "total_loss": -0.11763753741979599,
+          "bce_eff_w": 0.44
+        }
+      ],
+      "worst3": [
+        {
+          "idx": 1,
+          "text": "Translate to Turkish: Yes, a war with Germany.",
+          "len": 13,
+          "ce_loss": 0.08625002950429916,
+          "bce_loss": -0.4633808434009552,
+          "total_loss": -0.11763753741979599,
+          "bce_eff_w": 0.44
+        },
+        {
+          "idx": 0,
+          "text": "Translate to Turkish: God will help us.",
+          "len": 11,
+          "ce_loss": 0.030293744057416916,
+          "bce_loss": -0.4617466926574707,
+          "total_loss": -0.1728747934103012,
+          "bce_eff_w": 0.44
+        }
+      ]
+    },
+    "bce_off": {
+      "mean_ce": 0.05827188678085804,
+      "p50_ce": 0.05827188678085804,
+      "p90_ce": 0.08065440095961093,
+      "min_ce": 0.030293744057416916,
+      "max_ce": 0.08625002950429916,
+      "ppl": 1.0600031573809976,
+      "mean_total": -0.12675362452864647,
+      "bucket_mean": {
+        "<=64": 0.05827188678085804,
+        ">64": null
+      },
+      "best3": [
+        {
+          "idx": 0,
+          "text": "Translate to Turkish: God will help us.",
+          "len": 11,
+          "ce_loss": 0.030293744057416916,
+          "bce_loss": -0.4617466926574707,
+          "total_loss": -0.15440493822097778,
+          "bce_eff_w": 0.4
+        },
+        {
+          "idx": 1,
+          "text": "Translate to Turkish: Yes, a war with Germany.",
+          "len": 13,
+          "ce_loss": 0.08625002950429916,
+          "bce_loss": -0.4633808434009552,
+          "total_loss": -0.09910231083631516,
+          "bce_eff_w": 0.4
+        }
+      ],
+      "worst3": [
+        {
+          "idx": 1,
+          "text": "Translate to Turkish: Yes, a war with Germany.",
+          "len": 13,
+          "ce_loss": 0.08625002950429916,
+          "bce_loss": -0.4633808434009552,
+          "total_loss": -0.09910231083631516,
+          "bce_eff_w": 0.4
+        },
+        {
+          "idx": 0,
+          "text": "Translate to Turkish: God will help us.",
+          "len": 11,
+          "ce_loss": 0.030293744057416916,
+          "bce_loss": -0.4617466926574707,
+          "total_loss": -0.15440493822097778,
+          "bce_eff_w": 0.4
+        }
+      ]
+    }
+  },
+  "val_small": {
+    "bce_on": {
+      "mean_ce": 0.20411331548580322,
+      "p50_ce": 0.14386501908302307,
+      "p90_ce": 0.42744388580322257,
+      "min_ce": 0.002698888536542654,
+      "max_ce": 0.9256188869476318,
+      "ppl": 1.2264371199005855,
+      "mean_total": 0.0012847087506590218,
+      "bucket_mean": {
+        "<=64": 0.17834525936216647,
+        ">64": 0.9256188869476318
+      },
+      "best3": [
+        {
+          "idx": 13,
+          "text": "Translate to Turkish: She's hot.",
+          "len": 11,
+          "ce_loss": 0.002698888536542654,
+          "bce_loss": -0.4619738757610321,
+          "total_loss": -0.20056961476802826,
+          "bce_eff_w": 0.44
+        },
+        {
+          "idx": 12,
+          "text": "Translate to Turkish: He's gone.",
+          "len": 11,
+          "ce_loss": 0.004267276264727116,
+          "bce_loss": -0.4617125689983368,
+          "total_loss": -0.19888626039028168,
+          "bce_eff_w": 0.44
+        },
+        {
+          "idx": 14,
+          "text": "Translate to Turkish: Good job.",
+          "len": 9,
+          "ce_loss": 0.00982268899679184,
+          "bce_loss": -0.4618399739265442,
+          "total_loss": -0.19338691234588623,
+          "bce_eff_w": 0.44
+        }
+      ],
+      "worst3": [
+        {
+          "idx": 17,
+          "text": "[Advanced Math] Shelby had $60 to take to the book fair. She bought a book for $15 and another for $9. The book fair also had a promotion where purchases over $40 got a 15% discount, purchases over $25 got a 10% discount, and buyers can also use a $5 off coupon in addition to the discount. After that, Shelby bought a bookmark for $3.5, a set of pencils for $4.8, and a notebook for $6.2. She decided to buy as many $6 posters as she could with the money she had left after applying the applicable discount, using the coupon, and taking taxes into account. The sales tax rate in her state is 8%. How many posters can she buy?",
+          "len": 128,
+          "ce_loss": 0.9256188869476318,
+          "bce_loss": -0.46366778016090393,
+          "total_loss": 0.7216050624847412,
+          "bce_eff_w": 0.44
+        },
+        {
+          "idx": 25,
+          "text": "Translate to Turkish: I feel that while significant strides have been made in expanding the use of her ability, she still lacks the emotional maturity required to realize her full potential.",
+          "len": 36,
+          "ce_loss": 0.6561877727508545,
+          "bce_loss": -0.4618692398071289,
+          "total_loss": 0.45296531915664673,
+          "bce_eff_w": 0.44
+        },
+        {
+          "idx": 8,
+          "text": "Translate to Turkish: \"The average speed of trains in Corridor 4 is around 90km per hour, whereas the average speed of trains running through Serbia is 35km per hour.",
+          "len": 37,
+          "ce_loss": 0.5169616937637329,
+          "bce_loss": -0.4646419286727905,
+          "total_loss": 0.31251925230026245,
+          "bce_eff_w": 0.44
+        }
+      ]
+    },
+    "bce_off": {
+      "mean_ce": 0.20411331548580322,
+      "p50_ce": 0.14386501908302307,
+      "p90_ce": 0.42744388580322257,
+      "min_ce": 0.002698888536542654,
+      "max_ce": 0.9256188869476318,
+      "ppl": 1.2264371199005855,
+      "mean_total": 0.019723665611497288,
+      "bucket_mean": {
+        "<=64": 0.17834525936216647,
+        ">64": 0.9256188869476318
+      },
+      "best3": [
+        {
+          "idx": 13,
+          "text": "Translate to Turkish: She's hot.",
+          "len": 11,
+          "ce_loss": 0.002698888536542654,
+          "bce_loss": -0.4619738757610321,
+          "total_loss": -0.1820906698703766,
+          "bce_eff_w": 0.4
+        },
+        {
+          "idx": 12,
+          "text": "Translate to Turkish: He's gone.",
+          "len": 11,
+          "ce_loss": 0.004267276264727116,
+          "bce_loss": -0.4617125689983368,
+          "total_loss": -0.1804177612066269,
+          "bce_eff_w": 0.4
+        },
+        {
+          "idx": 14,
+          "text": "Translate to Turkish: Good job.",
+          "len": 9,
+          "ce_loss": 0.00982268899679184,
+          "bce_loss": -0.4618399739265442,
+          "total_loss": -0.17491331696510315,
+          "bce_eff_w": 0.4
+        }
+      ],
+      "worst3": [
+        {
+          "idx": 17,
+          "text": "[Advanced Math] Shelby had $60 to take to the book fair. She bought a book for $15 and another for $9. The book fair also had a promotion where purchases over $40 got a 15% discount, purchases over $25 got a 10% discount, and buyers can also use a $5 off coupon in addition to the discount. After that, Shelby bought a bookmark for $3.5, a set of pencils for $4.8, and a notebook for $6.2. She decided to buy as many $6 posters as she could with the money she had left after applying the applicable discount, using the coupon, and taking taxes into account. The sales tax rate in her state is 8%. How many posters can she buy?",
+          "len": 128,
+          "ce_loss": 0.9256188869476318,
+          "bce_loss": -0.46366778016090393,
+          "total_loss": 0.7401517629623413,
+          "bce_eff_w": 0.4
+        },
+        {
+          "idx": 25,
+          "text": "Translate to Turkish: I feel that while significant strides have been made in expanding the use of her ability, she still lacks the emotional maturity required to realize her full potential.",
+          "len": 36,
+          "ce_loss": 0.6561877727508545,
+          "bce_loss": -0.4618692398071289,
+          "total_loss": 0.47144007682800293,
+          "bce_eff_w": 0.4
+        },
+        {
+          "idx": 8,
+          "text": "Translate to Turkish: \"The average speed of trains in Corridor 4 is around 90km per hour, whereas the average speed of trains running through Serbia is 35km per hour.",
+          "len": 37,
+          "ce_loss": 0.5169616937637329,
+          "bce_loss": -0.4646419286727905,
+          "total_loss": 0.33110493421554565,
+          "bce_eff_w": 0.4
+        }
+      ]
+    }
+  }
+}

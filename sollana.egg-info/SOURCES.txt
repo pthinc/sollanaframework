@@ -1,0 +1,15 @@
+pyproject.toml
+./sollana/__init__.py
+./sollana/backends/__init__.py
+./sollana/backends/trainer_bridge.py
+./sollana/behavioral_consciousness/__init__.py
+./sollana/behavioral_consciousness/system_integrator.py
+sollana/__init__.py
+sollana.egg-info/PKG-INFO
+sollana.egg-info/SOURCES.txt
+sollana.egg-info/dependency_links.txt
+sollana.egg-info/top_level.txt
+sollana/backends/__init__.py
+sollana/backends/trainer_bridge.py
+sollana/behavioral_consciousness/__init__.py
+sollana/behavioral_consciousness/system_integrator.py

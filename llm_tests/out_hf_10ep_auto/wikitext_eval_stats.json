@@ -1,0 +1,20 @@
+{
+  "wikitext2": {
+    "bce_on": {
+      "eval_loss": 1.6691083908081055,
+      "eval_model_preparation_time": 0.0005,
+      "eval_runtime": 66.773,
+      "eval_samples_per_second": 56.31,
+      "eval_steps_per_second": 56.31,
+      "perplexity": 5.307433530415829
+    },
+    "bce_off": {
+      "eval_loss": 1.6693402528762817,
+      "eval_model_preparation_time": 0.0008,
+      "eval_runtime": 67.6539,
+      "eval_samples_per_second": 55.577,
+      "eval_steps_per_second": 55.577,
+      "perplexity": 5.308664265605788
+    }
+  }
+}

@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=65", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sollana"
+version = "0.0.1"
+description = "Sollana Behavioral Consciousness package"
+authors = [{name="Prometech", email="info@example.com"}]
+requires-python = ">=3.9"
+dependencies = []
+
+[tool.setuptools]
+packages = ["sollana", "sollana.behavioral_consciousness", "sollana.backends"]
+package-dir = {"" = "."}

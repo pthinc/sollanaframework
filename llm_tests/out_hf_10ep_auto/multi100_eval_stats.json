@@ -1,0 +1,156 @@
+{
+  "wikitext103": {
+    "meta": {
+      "train_bytes": 83887177,
+      "val_bytes": 1144248,
+      "train_len": 182554,
+      "val_len": 2461
+    },
+    "bce_on": {
+      "eval_loss": 1.659387469291687,
+      "eval_runtime": 57.0359,
+      "eval_samples_per_second": 43.148,
+      "eval_steps_per_second": 43.148,
+      "epoch": 0.0006573397460477448,
+      "perplexity": 5.256090341479286,
+      "meta_optimizer": {
+        "lr": 1e-05,
+        "bce_weight": 2.0,
+        "bce_max_weight": 4.0,
+        "bce_warmup_steps": 50,
+        "bce_boost_span": 2000,
+        "telemetry": {
+          "avg_dhat": 0.024843235875536628,
+          "avg_rf_hat": 3.517096501250032e-13,
+          "avg_rs": 5.551115123125783e-17,
+          "avg_h": 5.5511151231204986e-17,
+          "score": 0.012421617937944168
+        }
+      }
+    },
+    "bce_off": {
+      "eval_loss": 1.7678481340408325,
+      "eval_runtime": 57.9816,
+      "eval_samples_per_second": 42.445,
+      "eval_steps_per_second": 42.445,
+      "epoch": 0.0006573397460477448,
+      "perplexity": 5.858233654711236,
+      "meta_optimizer": {
+        "lr": 1e-05,
+        "bce_weight": 0.0,
+        "bce_max_weight": 0.0,
+        "bce_warmup_steps": 50,
+        "bce_boost_span": 2000,
+        "telemetry": {
+          "avg_dhat": 0.024843235875536645,
+          "avg_rf_hat": 3.5170965012500567e-13,
+          "avg_rs": 5.551115123125783e-17,
+          "avg_h": 5.5511151231206157e-17,
+          "score": 0.012421617937944177
+        }
+      }
+    }
+  },
+  "cc_news": {
+    "meta": {
+      "total_bytes": 104858437,
+      "train_len": 35770,
+      "val_len": 8943
+    },
+    "bce_on": {
+      "eval_loss": 1.5773898363113403,
+      "eval_runtime": 257.0098,
+      "eval_samples_per_second": 34.796,
+      "eval_steps_per_second": 34.796,
+      "epoch": 0.0033547665641599105,
+      "perplexity": 4.842300105785535,
+      "meta_optimizer": {
+        "lr": 1e-05,
+        "bce_weight": 2.0,
+        "bce_max_weight": 4.0,
+        "bce_warmup_steps": 50,
+        "bce_boost_span": 2000,
+        "telemetry": {
+          "avg_dhat": 0.024843235875545676,
+          "avg_rf_hat": 3.517096501249831e-13,
+          "avg_rs": 5.551115123125783e-17,
+          "avg_h": 5.5511151231185504e-17,
+          "score": 0.012421617937948692
+        }
+      }
+    },
+    "bce_off": {
+      "eval_loss": 1.7904914617538452,
+      "eval_runtime": 268.2958,
+      "eval_samples_per_second": 33.333,
+      "eval_steps_per_second": 33.333,
+      "epoch": 0.0033547665641599105,
+      "perplexity": 5.992396776645495,
+      "meta_optimizer": {
+        "lr": 1e-05,
+        "bce_weight": 0.0,
+        "bce_max_weight": 0.0,
+        "bce_warmup_steps": 50,
+        "bce_boost_span": 2000,
+        "telemetry": {
+          "avg_dhat": 0.024843235875547674,
+          "avg_rf_hat": 3.5170965012507333e-13,
+          "avg_rs": 5.551115123125783e-17,
+          "avg_h": 5.551115123120429e-17,
+          "score": 0.012421617937949691
+        }
+      }
+    }
+  },
+  "tinystories": {
+    "meta": {
+      "total_bytes": 104859354,
+      "train_len": 94240,
+      "val_len": 23560
+    },
+    "bce_on": {
+      "eval_loss": 0.8743299841880798,
+      "eval_runtime": 798.3605,
+      "eval_samples_per_second": 29.51,
+      "eval_steps_per_second": 29.51,
+      "epoch": 0.0012733446519524619,
+      "perplexity": 2.3972685479220517,
+      "meta_optimizer": {
+        "lr": 1e-05,
+        "bce_weight": 2.0,
+        "bce_max_weight": 4.0,
+        "bce_warmup_steps": 50,
+        "bce_boost_span": 2000,
+        "telemetry": {
+          "avg_dhat": 0.02484323587554926,
+          "avg_rf_hat": 3.5170965012514477e-13,
+          "avg_rs": 5.551115123125783e-17,
+          "avg_h": 5.5511151231231283e-17,
+          "score": 0.012421617937950484
+        }
+      }
+    },
+    "bce_off": {
+      "eval_loss": 1.0848546028137207,
+      "eval_runtime": 775.2438,
+      "eval_samples_per_second": 30.39,
+      "eval_steps_per_second": 30.39,
+      "epoch": 0.0012733446519524619,
+      "perplexity": 2.9590095557971523,
+      "meta_optimizer": {
+        "lr": 1e-05,
+        "bce_weight": 0.0,
+        "bce_max_weight": 0.0,
+        "bce_warmup_steps": 50,
+        "bce_boost_span": 2000,
+        "telemetry": {
+          "avg_dhat": 0.02484323587554978,
+          "avg_rf_hat": 3.517096501251683e-13,
+          "avg_rs": 5.551115123125783e-17,
+          "avg_h": 5.551115123124017e-17,
+          "score": 0.012421617937950744
+        }
+      }
+    }
+  }
+}

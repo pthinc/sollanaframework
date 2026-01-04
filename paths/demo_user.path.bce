@@ -1,0 +1,49 @@
+{
+  "behavior_id": "demo_user",
+  "steps": [
+    {
+      "ts": 1.2,
+      "module": "system_integrator",
+      "params": {
+        "attention": 0.65,
+        "match_prob": 0.5,
+        "context_weight": 0.33999999999999997,
+        "activation": 0.17665156223177605,
+        "ethical": 1.0,
+        "anomaly_penalty": 0.0,
+        "decay_rate": 0.05
+      },
+      "phi": 0.3366598448858039
+    },
+    {
+      "ts": 2.5,
+      "module": "system_integrator",
+      "params": {
+        "attention": 0.8,
+        "match_prob": 0.5,
+        "context_weight": 0.33999999999999997,
+        "activation": 0.9999999719325543,
+        "ethical": 1.0,
+        "anomaly_penalty": 0.0,
+        "decay_rate": 0.15
+      },
+      "phi": 1.047136801991754
+    },
+    {
+      "ts": 0.6,
+      "module": "system_integrator",
+      "params": {
+        "attention": 0.4,
+        "match_prob": 0.5,
+        "context_weight": 0.33999999999999997,
+        "activation": -0.866653024018309,
+        "ethical": 1.0,
+        "anomaly_penalty": 0.0,
+        "decay_rate": 0.05
+      },
+      "phi": 0.05547303393960712
+    }
+  ],
+  "cumulative_phi": 0.0,
+  "exported_at": 1767414550.2723963
+}
