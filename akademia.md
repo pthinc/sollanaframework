@@ -39,7 +39,11 @@ Prometech AŞ will provide **technical support** unless compromised by external 
 > — **Ahmet Kahraman (1984–XXXX)**
 
 ### **Key Provisions**
+
 ✔ **Free Access:** Unrestricted use for UNESCO personnel.
+
 ✔ **Audit Rights:** Mandatory 1-5 year review of all BCE implementations.
+
 ✔ **AI Safeguards:** Ethical constraints, transparency protocols, and decentralized governance.
+
 ❌ **No Commercialization:** **No licensing, sublicensing, leasing, or resale**—violations will be legally enforced.
